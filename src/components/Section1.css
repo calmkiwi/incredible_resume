@@ -1,0 +1,119 @@
+*{
+    margin:0;
+}
+#section1{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+.PDP {
+    position: absolute;
+    max-height: 50vh;
+    border-radius: 50%;
+    top:25vh;
+    right: 25vh;
+    z-index: 3;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    /* border: honeydew 2px solid; */
+    align-items: center;
+    padding:2vh;
+}
+
+header a{
+    padding-right: 4vh;
+    font-size: 4vh;
+    text-decoration: none;
+    
+}
+.kiwi_logo{
+    margin: 2vh;
+    height:15vh;
+
+}
+.ombre_cercle{
+    position: absolute;
+    height: 50vh;
+    width: 50vh;
+    border-radius: 50%;
+    top:26vh;
+    right: 24vh;
+    background-color: #6b07ad;
+    z-index: 2;
+    border : solid 2px #31024f;
+}
+
+.ombre_cercle2{
+    position: absolute;
+    height: 50vh;
+    width: 50vh;
+    border-radius: 50%;
+    top:27vh;
+    right: 23vh;
+    background-color: #dba607;
+    border : solid 2px #523e02;
+}
+
+h1 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 10vh;
+}
+
+.main_title{
+    position: relative;
+    max-width: 100vh;
+    margin-left: 10vh; 
+    z-index: 5;
+    margin-bottom: 10%;
+}
+
+.blocprez{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+/*
+    Ombres derrière nom
+*/
+.ombre{
+    position: absolute;
+    z-index: 4;
+    font-family: 'Inconsolata', monospace;
+    font-size: 10vh;
+    font-weight: bold;
+}
+.ombre1{
+    top:45vh;
+    left:30.5vh;
+    color: #6b07ad;
+}
+.ombre2{
+    left:10.5vh;
+    top:55.5vh;
+    color: #dba607;
+}
+
+.bg_shape{
+    position: absolute;
+    height: 200vh;
+    top:-10vh;
+    left:30vh;
+}
+
+/*Palette*/
+/* 
+#c1{
+    background-color: white;
+}
+#c2{
+    background-color: #dba607;
+    left: 50px;
+}
+#c3{
+    background-color: #6b07ad;
+    left: 100px;
+} */

@@ -1,0 +1,200 @@
+/* Background images*/
+
+.dino{
+    max-width:13vh;
+    opacity: 0.8;
+    width:auto;
+    height : auto;
+    object-fit: contain;
+}
+
+.dino_2{
+    transform: scaleX(-1);
+}
+/*Actual CSS*/
+#section2{
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: column;
+    z-index: 2;
+    position: relative;
+}
+
+.title_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.titre{
+    color: rgb(219, 166, 7);
+    font-size: 15vh;
+    margin:2vh;
+    z-index: 2;
+    
+}
+.ombre3 {
+    position: absolute;
+    color: black;
+    z-index: 1;
+    width:100%;
+    margin:0;
+    margin-left: 1vh;
+    margin-top:3vh;
+}
+.chronoligne{
+    display: flex;
+    /*transform: translateX(-80%);*/
+}
+.ligne{
+    height: 2.5vh;
+    width:90%;
+    background-color: #dba607;
+    z-index: 2;
+}
+
+.ombre_l_1{
+    position: absolute;
+    background-color: black;
+    z-index: 1;
+    width:90%;
+    margin-top: 1vh;
+}
+
+.big_circle{
+    position: absolute;
+    top:24%;
+    height: 6vh;
+    width : 6vh;
+    background-color: #dba607;
+    border-radius: 50%;
+    transform: translateX(-3vh) translateY(0.5vh);
+    z-index: 2;
+}
+
+.ombre_bc{
+    position: absolute;
+    background-color: black;
+    z-index: 1;
+    left:90%;
+    margin-top: 1vh;
+    margin-left: 1vh;
+}
+
+.ombre_bc_abs{
+    position: absolute;
+    background-color: black;
+    z-index: 1;
+    margin-top: 1vh;
+    margin-left: 1vh;
+}
+
+.dates{
+    position: absolute;
+    top:32%;
+    font-family: 'VT323', monospace;
+    font-size: 6vh;
+    color : black;
+}
+
+.chrono_container{
+    display: flex;
+    height: 65vh;
+    padding: 4vh;
+    justify-content: space-between;
+}
+
+.card{
+    margin:3vh;
+    margin-bottom: 1vh;
+    border: 3px #dba607 solid;
+    padding: 3vh;
+    border-radius: 3vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 3px 3px 10px black;
+    
+}
+
+.chrono_container h2{
+    font-family: 'VT323', monospace;
+    color : black;
+    font-size: 6vh;
+    overflow: hidden;
+}
+
+.chrono_container p{
+    margin: 2vh;
+    font-family: 'Inconsolata', monospace;
+    font-weight: lighter;
+
+}
+
+.chrono_container strong{
+    color:#dba607;
+}
+
+.main_features{
+    display: flex;
+    align-items: center;
+}
+.main_features div{
+    /* border : 2px #dba607 solid; */
+    margin : 1vh;
+    padding: 1vh;
+    background-color: black;
+    font-family: 'VT323', monospace;
+    font-size: 4vh;
+    color : #dba607;
+    border-radius: 2vh
+}
+
+/* Background arrows*/
+
+.arrow1{
+    position: absolute;
+    width: auto;
+    height: 15%;
+    transform: rotate(195deg);
+    top:40%;
+    right:32%;
+}
+
+.arrow2{
+    position: absolute;
+    width: auto;
+    height: 25%;
+    top:32%;
+    right:48vh;
+    transform: scaleX(-1);
+}
+
+.cb{
+    position: absolute;
+    height: 130vh;
+    width: 35vh;
+    transform: rotate(-90deg);
+    top:-29%;
+    left:125vh;
+}
+.cb2{
+    position: absolute;
+    height: 75vh;
+    width: 35vh;
+    transform : rotate(90deg);
+    left : 32vh;
+    top:-4%;
+}
+.arrow3{
+    position: absolute;
+    width: auto;
+    height: 12%;
+    top:37%;
+    left:15%;
+    transform: scaleX(-1) rotate(-120deg);
+}
+
+
