@@ -1,0 +1,135 @@
+#section3{
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+.mainBloc{
+    height: 70vh;
+    margin:5vh;
+    width: 50%;
+}
+
+.titre_sec3{
+    color: white;
+    font-size: 15vh;
+    margin:2vh;
+    z-index: 2;
+    
+}
+.ombre_sec3 {
+    position: absolute;
+    color: #dba607;
+    z-index: 1;
+    width:100%;
+    margin:0;
+    margin-left: 0.5vh;
+    margin-top:2.5vh;
+}
+
+.frigate{
+    position: absolute;
+    height: 80%;
+    width: auto;
+    z-index: 3;
+    margin: 3vh;
+    bottom:-11vh;
+    right:3%;
+    animation: FrigateWave 1.5s ease-in-out infinite;
+}
+
+.ombre_fri{
+    bottom:-10vh;
+    right:3.5%; 
+    animation: FrigateWaveShadow 1.5s ease-in-out infinite;
+}
+.ng{
+    position: absolute;
+    bottom:25vh;
+    right:18%;
+    height: 5vh;
+    z-index: 4;
+    animation: FrigateWaveNG 1.5s ease-in-out infinite;
+}
+
+
+@keyframes FrigateWave {
+    0%, 100% {
+      bottom: -11vh;
+    }
+    50% {
+      bottom: -14vh;
+    }
+  }
+  @keyframes FrigateWaveShadow {
+    0%, 100% {
+      bottom: -10vh;
+    }
+    50% {
+      bottom: -13vh;
+    }
+  }
+
+  @keyframes FrigateWaveNG {
+    0%, 100% {
+      bottom: 25vh;
+    }
+    50% {
+      bottom: 22vh;
+    }
+  }
+
+.Laz{
+    position: absolute;
+    top:25%;
+    height: 15vh;
+    right:30%;
+}
+.ML{
+    position: absolute;
+    top:15%;
+    height: 15vh;
+    right:20%;
+}
+.TCPIP{
+   position: absolute;
+   top:25%;
+   height: 15vh;
+   right:10%; 
+}
+.wifi{
+    position: absolute;
+    top:34%;
+    right:16%;
+    height: 30%;
+    animation: FrigateWaveWifi 1.5s ease-in-out infinite;
+}
+
+@keyframes FrigateWaveWifi {
+    0%, 100% {
+      top: 34%;
+    }
+    50% {
+      top: 36%;
+    }
+  }
+
+.code_screen{
+    background-color: black;
+    border : #6b07ad 2px solid;
+    padding:2vh;
+    text-align: left;
+    height: 95%;
+    border-radius: 5%;
+}
+.code_screen h2,.code_screen h3{
+    color : white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 120%;
+}
+.code_screen strong{
+  color:#6b07ad;
+}
