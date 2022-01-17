@@ -13,16 +13,16 @@ const Fullpage = () => {
             <div className="section s1">
               <Section1 />
             </div>
-            <div className="section s2">
+            <div className="section s2" id="s2">
               <Section2 />
             </div>
-            <div className="section s3">
+            <div className="section s3" id="s3">
              <Section3 />
             </div>
-            <div className="section s4">
+            <div className="section s4" id="s4">
               <Section4 />
             </div>
-            <div className="section s5">
+            <div className="section s5" id="s5">
               Hire me !
             </div>
           </div>
