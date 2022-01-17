@@ -119,10 +119,10 @@
 
 .code_screen{
     background-color: black;
-    border : #6b07ad 2px solid;
+    border : #dba607 2px solid;
     padding:2vh;
     text-align: left;
-    height: 95%;
+    height: 90%;
     border-radius: 5%;
 }
 .code_screen h2,.code_screen h3{
@@ -131,5 +131,5 @@
     font-size: 120%;
 }
 .code_screen strong{
-  color:#6b07ad;
+  color:#dba607;
 }
