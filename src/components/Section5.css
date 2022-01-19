@@ -1,0 +1,43 @@
+#section5{
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+}
+
+#section5 article{
+   height:75vh;
+   color: white;
+   font-family: 'Poppins', sans-serif;
+   text-align: left;
+   font-size: 3vh;
+   margin: 10%;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+#section5 article p{
+   font-weight: lighter;
+   font-style: italic;
+   margin:1%;
+}
+#section5 article strong{
+   color: #6b07ad;
+   font-size: 3vh;
+}
+.legend{
+   font-weight: bolder;
+   font-style: normal;
+   font-size: 3.5vh;
+}
+.networks img{
+   height: 8vh;
+   margin:2%;
+}
+
+.underline{
+   text-decoration: underline solid 3px #6b07ad;
+}

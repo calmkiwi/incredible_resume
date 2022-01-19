@@ -5,9 +5,7 @@ import Logo_ReactNative from '../static/portfolio/reactnative/logo_reactnative.p
 import video_old from '../static/portfolio/reactnative/video_myvr_old.mp4';
 import video_new from '../static/portfolio/reactnative/video_myvr_new.mp4';
 import logo_angular from '../static/logo_angular.svg';
-import { useState } from 'react'
-import { AwesomeButton } from "react-awesome-button";
-import AwesomeButtonStyles from "react-awesome-button/src/styles/styles.scss";
+import { useState } from 'react';
 
 const Section4 = () => {
     
@@ -15,18 +13,18 @@ const Section4 = () => {
 
 
     const toggle = () =>{
-        var old_design = document.getElementById('OD');
+        var old_design = document.getElementById('OD_title');
         var new_video = document.getElementsByClassName('video_new')[0];
-        old_design.style.color = toggled ? "#fff" : "#6b07ad";
-        old_design.innerText = toggled ? "Old Design" : "New Design";
+        old_design.style.color = toggled ? "#000" : "#6b07ad";
+        old_design.innerText = toggled ? "Old design" : "New design";
         new_video.style.opacity = toggled ? 0 : 1;
         setToggled(!toggled);
     }
 
     return(
         <div id="section4">
-            <h1 className="titre_sec3">IT Projects</h1>
-            <h1 className="titre_sec3 ombre_sec3" style={{color: '#6b07ad'}}>IT Projects</h1>
+            <h1 className="titre_sec3">Dev Projects</h1>
+            <h1 className="titre_sec3 ombre_sec3" style={{color: '#6b07ad'}}>Dev Projects</h1>
             <div className="p_mainbloc">
                 <div className="p_bloc1">
                     <div className="p_bloc1_1">
@@ -38,11 +36,9 @@ const Section4 = () => {
                             <img src={Logo_ReactNative} alt="logo Angular" className="logoreactnative"/> 
                         </div>
                         <div className="old_design">
-                            <AwesomeButton id="OD"
-                             cssModule={AwesomeButtonStyles}
-                             type="primary"
-                             ripple
-                            onPress={toggle}>Old Design</AwesomeButton>
+                            <button id="OD"
+                            onClick={toggle}>Click me !</button>
+                            <h2 id='OD_title'>Old design</h2>
                         </div>
                         <div className="checktheapp">
                             <h2>Check the app <a href="https://apps.apple.com/fr/app/myvr/id1542530024">on IOS </a>{'&'} <a href="https://play.google.com/store/apps/details?id=fr.viarezo.myvr&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">on Android !</a></h2>

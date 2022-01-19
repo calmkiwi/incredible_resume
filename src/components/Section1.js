@@ -6,18 +6,21 @@ import {useRef, useEffect} from 'react';
 
 
 const Section1 = () => {
+    const smoothScroll = (section) =>{
+        document.getElementById(section).scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
 
     return(
         <div id="section1">
             <header>
-                <a href=''><img src={kiwi_logo} alt="Logo de kiwi" className="kiwi_logo" /></a>
+                <a href='' className="a_kiwi"><img src={kiwi_logo} alt="Logo de kiwi" className="kiwi_logo" /></a>
                 <div className="links">
-                    <a href="#s2" className="yellowlink">Education</a>
-                    <a href="#s3" className="purplelink">Experience</a>
-                    <a href="#s4" className="yellowlink">IT Projects</a>
-                    <a href="#s5" className="purplelink">Skills</a>
-                    <a href="#s6" className="yellowlink">Hire me!</a>
-                    
+                    <span onClick={() => {smoothScroll("s2")}} className="yellowlink">Education</span>
+                    <span onClick={() => {smoothScroll("s3")}} className="purplelink">Experience</span>
+                    <span onClick={() => {smoothScroll("s4")}} className="yellowlink">Dev Projects</span>
+                    <span onClick={() => {smoothScroll("s5")}} className="purplelink">Hire me!</span>
                 </div>
             </header>
            <section className="blocprez">
