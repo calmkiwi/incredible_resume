@@ -64,7 +64,7 @@
 
 .big_circle{
     position: absolute;
-    top:24%;
+    top:22%;
     height: 6vh;
     width : 6vh;
     background-color: #dba607;
@@ -92,7 +92,7 @@
 
 .dates{
     position: absolute;
-    top:32%;
+    top:30%;
     font-family: 'VT323', monospace;
     font-size: 6vh;
     color : black;
@@ -100,7 +100,7 @@
 
 .chrono_container{
     display: flex;
-    height: 65vh;
+    height: 60vh;
     padding: 4vh;
     justify-content: space-between;
 }
@@ -159,16 +159,16 @@
     width: auto;
     height: 15%;
     transform: rotate(195deg);
-    top:40%;
+    top:37%;
     right:32%;
 }
 
 .arrow2{
     position: absolute;
     width: auto;
-    height: 25%;
+    height: 20%;
     top:32%;
-    right:48vh;
+    right:38vh;
     transform: scaleX(-1);
 }
 
