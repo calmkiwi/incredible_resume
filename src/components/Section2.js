@@ -34,15 +34,15 @@ const Section2 = () => {
                 <div className="big_circle ombre_bc_abs" style={{left: "10vh"}}></div>
                 <div className="big_circle" style={{left: "85.2vh"}}></div>
                 <div className="big_circle ombre_bc_abs" style={{left: "85.2vh"}}></div>
-                <div className="big_circle" style={{left: "152.4vh"}}></div>
-                <div className="big_circle ombre_bc_abs" style={{left: "152.4vh"}}></div>
+                <div className="big_circle" style={{left: "161.4vh"}}></div>
+                <div className="big_circle ombre_bc_abs" style={{left: "161.4vh"}}></div>
                 {
                   //Dates
                 }
                 <h2 className="dates" style={{left:"6vh"}}>2017</h2>
                 <h2 className="dates" style={{left:"81.2vh"}}>2019</h2>
-                <h2 className="dates" style={{left:"147vh"}}>2021</h2>
-                <h2 className="dates" style={{left:"180vh"}}>2022</h2>
+                <h2 className="dates" style={{left:"156.4vh"}}>2021</h2>
+                <h2 className="dates" style={{left:"195vh"}}>2022</h2>
             </div>
             <div className="chrono_container">
                 <div className="card c1">
