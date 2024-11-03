@@ -54,7 +54,7 @@ This portfolio leverages a selection of powerful technologies and frameworks:
    npm start
    ```
 
-   Your portfolio will be live at `http://localhost:3000`.
+   My portfolio will be live at `http://localhost:3000`.
 
 
 Cheers ;)
